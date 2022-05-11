@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
 	background-color: #24282F;
@@ -11,6 +12,7 @@ h1 {
 	font-weight: bolder;
 	font-size: 5rem;
 	margin: 20px;
+	background-color: white;
 }
 main {
 	display: flex; 
@@ -24,7 +26,7 @@ main {
 	flex-direction: row;
 	border-radius: 10px;
 	background-color: #3C3E44;
-	width: 35%;
+	width: 40%;
 }
 
 img {
@@ -42,4 +44,15 @@ color: white;
 }
 h5{
 	font-weight: bolder;
+	font-size: 1.4rem;
+}
+.status {
+	font-size: 0.8rem;
+	margin-bottom: 5%;
+}
+h6 {
+	color: #787a80;
+	font-size: 1rem;
+	font-size: lighter;
+	letter-spacing: 0.2;
 }

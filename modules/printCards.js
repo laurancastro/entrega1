@@ -10,7 +10,7 @@ const printCards = (data, container) => {
 		`<img src="https://rickandmortyapi.com/api/character/avatar/${id}.jpeg" alt="">
 		<div class="info">
 			<h5>${name}</h5>
-			<p> ${status} - ${species}</p>
+			<p class= "status"> ${status} - ${species}</p>
 			<h6 class="subtitle">Last known location:</h6>
 			<p>${location.name}</p>
 			<h6 class="subtitle">First seen in:</h6>
